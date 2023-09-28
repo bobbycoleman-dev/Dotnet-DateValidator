@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Result";
+}
+@model Form
+<div class="text-center">
+    <h1 class="display-4">Date Validator</h1>
+    <div class="w-25 mx-auto">
+        <p>@Model.FormDate.ToShortDateString()</p>
+    </div>
+    <a href="/" class="btn btn-primary mt-3">Select New Date</a>
+    
+</div>
